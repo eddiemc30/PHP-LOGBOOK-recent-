@@ -1,8 +1,8 @@
 <html>
 <body>
 <?php
-	$firstname = "Richard";
-	$lastname = "Mather";
+	$firstname = "erick";
+	$lastname = "sevilla";
 	$space = " ";
 	$name = $firstname . $space . $lastname;
 	echo $name;

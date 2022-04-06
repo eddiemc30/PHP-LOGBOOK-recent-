@@ -3,7 +3,7 @@
   header("Content-type: image/jpeg");
 
   $servername = 'localhost';
-  $db_name = 'db1_21906325';
+  $db_name = 'phpmyadmin';
   $username = 'root';
   $password = '';
 

@@ -3,7 +3,7 @@
   header("Content-type: audio/wav");
 
   $servername = 'localhost';
-  $db_name = 'db1_21906325';
+  $db_name = 'phpmyadmin';
   $username = 'root';
   $password = '';
 
