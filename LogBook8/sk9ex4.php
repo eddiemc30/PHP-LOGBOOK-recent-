@@ -1,5 +1,5 @@
 <?php
-     $conn = mysqli_connect("localhost", "root", "", "db1_21906325");
+     $conn = mysqli_connect("localhost", "root", "", "phpmyadmin");
 
      if (isset($_POST['selweek'])){
        $sql = "select * from lotto where wk=$_POST[selweek];";

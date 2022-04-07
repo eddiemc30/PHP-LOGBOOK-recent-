@@ -1,4 +1,4 @@
-<?php include("class_lib.php"); ?>
+<?php include("class.lib.php"); ?>
 <?php
     $grace = new person();
     $derick = new person;

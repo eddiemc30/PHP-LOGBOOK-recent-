@@ -4,7 +4,7 @@
   setcookie('id', $id);
 	// Connect to server and select database
   $servername = 'localhost';
-  $db_name = 'db1_21906325';
+  $db_name = 'eric';
   $username = 'root';
   $password = '';
 
@@ -23,19 +23,38 @@
 ?>
 <html>
 <body>
-<form action="wk6ex2action2.php" method="post">
+<form action= "wk6ex2action.php" method ="post">
 
-	Name :
-	<input type=text name=txtname value="<? echo $row['name'] ?>" readonly />
-	</br>
-	Phone number :
-	<input type=text name=txttelno value="<? echo $row['phone_number'] ?>" />
-	</br>
-	Email :
-	<input type=text name=txtemail value="<? echo $row['email'] ?>" />
-	</br>
-	<input type=submit name=btnsubmit value="Save"/>
-  <input type=submit name=btnsubmit value="Delete"/>
+
+
+Name :
+
+<input type=text name=txtname value="<?php echo $row['name'] ?>" readonly />
+
+</br>
+
+
+
+Phone number :
+
+<input type=text name=txttelno value="<?php echo $row['phone_number'] ?>" />
+
+</br>
+
+
+
+Email :
+
+<input type=text name=txtemail value="<?php echo $row['email'] ?>" />
+
+</br>
+
+<input type=submit name=btnsubmit value="save"/>
+
+
+
 </form>
+
 </body>
+
 </html>
